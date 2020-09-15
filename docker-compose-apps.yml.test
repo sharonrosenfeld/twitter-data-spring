@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  twitts-streamer:
+    image: nonirosenfeld/twitts-stream:1.0
+    container_name: twitts_streamer
+    depends_on:
+      #- kafka1
+      - twitts-sentiment
+
+  twitts-sentiment:
+    image: nonirosenfeld/twitts-sentiment:1.0
+    container_name: twitts_sentiment
+    depends_on:
+      #- kafka1
+      - twitts-storage
+
+  twitts-storage:
+    image: nonirosenfeld/twitts-storage:1.0
+    container_name: twitts_storage
+    ports:
+      - "8083:8083"
+#    depends_on:
+#      - elasticsearch
+#      - kafka1
+

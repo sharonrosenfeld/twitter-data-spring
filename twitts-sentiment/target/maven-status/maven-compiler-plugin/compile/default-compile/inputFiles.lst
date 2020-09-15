@@ -1,0 +1,11 @@
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/service/SimpleSentimentDetectionService.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/dto/Twitt.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/service/PersistentQueueService.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/service/KafkaQueueService.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/model/AnalyzedTwitt.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/config/KafkaConfig.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/TwittsSentimentApplication.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/config/ApplicationConfig.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/service/SentimentDetectionService.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/service/SentimentService.java
+/home/sharon/dev/twitter-craft/twitts-sentiment/src/main/java/com/sharon/twittssentiment/model/Sentiment.java

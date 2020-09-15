@@ -1,0 +1,8 @@
+com/sharon/twittsstorage/TwittsStorageApplication.class
+com/sharon/twittsstorage/model/AnalyzedTwitt.class
+com/sharon/twittsstorage/config/KafkaConfig.class
+com/sharon/twittsstorage/dao/es/AnalyzedTwittsDao.class
+com/sharon/twittsstorage/config/ApplicationConfig.class
+com/sharon/twittsstorage/dao/es/ProductSentimentsDateRangeQuery.class
+com/sharon/twittsstorage/config/ESConfig.class
+com/sharon/twittsstorage/controller/TwittsStorageController.class

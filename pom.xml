@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+<!--	<parent>-->
+<!--		<groupId>com.sharon</groupId>-->
+<!--		<artifactId>data-spring-services</artifactId>-->
+<!--		<version>0.0.1-SNAPSHOT</version>-->
+<!--	</parent>-->
+
+	<groupId>com.sharon</groupId>
+	<artifactId>twitter-craft</artifactId>
+	<packaging>pom</packaging>
+        <version>0.0.1-SNAPSHOT</version>
+
+	<profiles>
+		<profile>
+			<id>twitter-sentiment</id>
+			<activation>
+				<file>
+					<exists>twitts-sentiment/pom.xml</exists>
+				</file>
+			</activation>
+			<modules>
+				<module>twitts-sentiment</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>twitts-stream</id>
+			<activation>
+				<file>
+					<exists>twitts-stream/pom.xml</exists>
+				</file>
+			</activation>
+			<modules>
+				<module>twitts-stream</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>twitts-storage</id>
+			<activation>
+				<file>
+					<exists>twitts-storage/pom.xml</exists>
+				</file>
+			</activation>
+			<modules>
+				<module>twitts-storage</module>
+			</modules>
+		</profile>
+<!--		<profile>-->
+<!--			<id>dataMockWS</id>-->
+<!--			<activation>-->
+<!--				<file>-->
+<!--					<exists>dataMockWS/pom.xml</exists>-->
+<!--				</file>-->
+<!--			</activation>-->
+<!--			<modules>-->
+<!--				<module>dataMockWS</module>-->
+<!--			</modules>-->
+<!--		</profile>-->
+	</profiles>
+    <modules>
+        <module>twitts-sentiment</module>
+		<module>twitts-storage</module>
+		<module>twitts-stream</module>
+    </modules>
+</project>

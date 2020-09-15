@@ -1,0 +1,8 @@
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/config/ESConfig.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/dao/es/ProductSentimentsDateRangeQuery.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/TwittsStorageApplication.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/config/ApplicationConfig.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/dao/es/AnalyzedTwittsDao.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/config/KafkaConfig.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/controller/TwittsStorageController.java
+/home/sharon/dev/twitter-craft/twitts-storage/src/main/java/com/sharon/twittsstorage/model/AnalyzedTwitt.java
